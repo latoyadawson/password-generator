@@ -19,10 +19,33 @@
         <div class="card-body">
           <textarea
             readonly
-            id="password"
+            id="result"
             placeholder="Your Secure Password"
             aria-label="Generated Password"
           ></textarea>
+        </div>
+        <p>Please choose password criteria:</p>
+        <div class= "requirements">
+          <div class="setting">
+            <labe for="length">Password Length </label>
+            <input type="number" id="length" min="8" max="128" value="8" />
+          </div>
+          <div class="setting">
+            <label for="uppercase"> Include Uppercase letters</label>
+            <input type="checkbox" id="uppercase" required/>
+          </div>
+          <div class="setting">
+            <label for="lowercase"> Include lowercase letter</label>
+            <input type="checkbox" id="lowercase" />
+          </div>
+          <div class="setting">
+            <label for="numbers">Include numbers</label>
+            <input type="checkbox" id="numbers" />
+          </div>
+          <div class="setting">
+            <label for="symbols">Include symbols</label>
+            <input type="checkbox" id="symbols"/>
+          </div>
         </div>
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
