@@ -10,7 +10,7 @@ A website that automatically generates a passcode with different criteria
 * JavaScrtip
 
 ## Screenshot
-![screenshot of password](/image/password-generator.png)
+![screenshot of password](/Image/password-generator.png)
 
 ## Website
 https://latoyadawson.github.io/password-generator/
