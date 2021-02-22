@@ -2,7 +2,7 @@
 =======
 
 ## Purpose
-A website that automatically generates a passcode with different criteria 
+A website that automatically generates a passcode with different criteria that a user selects.
 
 ## Built with 
 * HTML
