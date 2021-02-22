@@ -53,6 +53,10 @@ header {
 .card-body {
   min-height: 100px;
 }
+.card-body textarea {
+  font-size: 30px;
+  text-align: center;
+}
 
 .card-footer {
   text-align: center;
@@ -117,6 +121,11 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
+
+.requirements {
+  visibility: hidden;
+}
+
 
 @media (max-width: 690px) {
   .btn {
